@@ -1,0 +1,121 @@
+{
+
+    "tags": {
+
+        "Name": "Spot Test-2",
+
+        "Project": "Demo"
+
+    },
+
+ 
+
+    "spot-request": {
+
+        "price": 0.1,
+
+        "image_id": "ami-15b34375",
+
+        "count": 1,
+
+        "type": "one-time",
+
+        "valid_from": null,
+
+        "valid_until": null,
+
+        "launch_group": null,
+
+        "availability_zone_group": null,
+
+        "key_name": "FirstKeyPair",
+
+        "security_groups": ["ssh"],
+
+        "user_data": null,
+
+        "addressing_type": null,
+
+        "instance_type": "m3.medium",
+
+        "placement": null,
+
+        "kernel_id": null,
+
+        "ramdisk_id": null,
+
+        "monitoring_enabled": false,
+
+        "subnet_id": null,
+
+        "placement_group": null,
+
+        "instance_profile_arn": null,
+
+        "instance_profile_name": null,
+
+        "security_group_ids": null,
+
+        "ebs_optimized": false,
+
+        "network_interfaces": null,
+
+        "dry_run": false
+
+    },
+
+ 
+
+    "block-device-mapping": {
+
+        "/dev/xvda": {
+
+            "ephemeral_name": null,
+
+            "no_device": false,
+
+            "volume_id": null,
+
+            "snapshot_id": "snap-a6b1855b",
+
+            "status": null,
+
+            "attach_time": null,
+
+            "delete_on_termination": true,
+
+            "size": 8,
+
+            "volume_type": "gp2",
+
+            "iops": null
+
+        },
+
+        "/dev/xvdb": {
+
+            "ephemeral_name": null,
+
+            "no_device": false,
+
+            "volume_id": null,
+
+            "snapshot_id": null,
+
+            "status": null,
+
+            "attach_time": null,
+
+            "delete_on_termination": true,
+
+            "size": 2,
+
+            "volume_type": "standard",
+
+            "iops": null
+
+        }
+
+    }
+
+}
